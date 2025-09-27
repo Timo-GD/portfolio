@@ -66,6 +66,13 @@ article {
     
 }
 
+#about-me {
+    /* display: block; */
+    display: grid;
+    width: 98.5%;
+    padding: 20%;
+}
+
 
 
 
