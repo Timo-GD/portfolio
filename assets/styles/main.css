@@ -33,10 +33,14 @@ main {
 article {
     width: 48.5%;
     height: auto;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
     margin: 10px;
+
+
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    display:inline-block;
 
     text-align: center;
     
@@ -54,12 +58,16 @@ article {
     img:hover {
         content: url(../images/AlienAbductorsGif.gif);
     }
-    float: left;
+    
 }
 
 #game-2 {
-    float: right;
 }
+
+#game-3 {
+}
+
+
 
 
 
