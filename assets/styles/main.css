@@ -6,7 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom right, #084e28, #000000 65% );
+    /* background: linear-gradient(to bottom right, #084e28, #000000 65% ); */
+    background: #ffffff;
 }
 
 h1 {
@@ -37,8 +38,11 @@ article {
 
 
     padding: 10px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+
+    border: #000000, solid;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
 
     display:inline-block;
 
@@ -59,12 +63,6 @@ article {
         content: url(../images/AlienAbductorsGif.gif);
     }
     
-}
-
-#game-2 {
-}
-
-#game-3 {
 }
 
 
