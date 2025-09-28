@@ -34,8 +34,8 @@ h2 {
 h3 {
     border: #000000 solid;
     border-radius: 10px;
-    width: 15%;
-    margin: 15px 42.5%;
+    width: 25%;
+    margin: 15px 37.5%;
 }
 
 main {
@@ -67,7 +67,10 @@ article {
     img {
         width: 100%;
         height: auto;
-        padding: 5px 5px;
+
+        
+        border: #000000 5px solid;
+        border-radius: 10px;
     }
 }
 
@@ -87,12 +90,14 @@ article {
 
 #tools-and-languages {
     display: grid;
-    width: 97.5%;
+    width: 75%;
     padding: 5%;
+    margin: 15px 12.5%;
     
     img {
         width: auto;
         height: auto;
+        border: #ffffff 0px;
     }
 }
 
