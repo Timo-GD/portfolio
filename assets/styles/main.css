@@ -78,6 +78,12 @@ article {
     padding: 20%;
 }
 
+#tools {
+    display: grid;
+    width: 97.5%;
+    padding: 5%;
+}
+
 article:hover {
     box-shadow: 20px 20px 20px #000000;
     width: 49%;
