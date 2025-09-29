@@ -119,7 +119,12 @@ article:hover {
     img:hover {
         content: url(../images/AlienAbductorsGif.gif);
     }
-    
+}
+
+#game-3 {
+    img:hover {
+        content: url(../images/MMotBgameplay.gif);
+    }
 }
 
 #about-me {
