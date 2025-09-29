@@ -26,14 +26,6 @@ h1 {
    margin: .5% 12.5%;
 }
 
-h2 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 16px;
-}
-
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -86,7 +78,16 @@ article {
     display:inline-block;
 
     text-align: center;
+
+    h2 {
+        font-size: 40px;
+        margin: .5%;
+    }
+
     p {
+        border: #000000 solid;
+        border-radius: 10px;
+        padding: 1%;
         font-size: 16px;
     }
 
