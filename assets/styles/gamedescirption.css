@@ -26,6 +26,14 @@ h1 {
    margin: .5% 12.5%;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+}
+
 article {
     width: 75%;
     height: auto;
