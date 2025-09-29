@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/styles/gamedescirption.css">
 </head>
 <body class="mirror-mirror-on-the-board">
+    <script src="/src/app.js"></script>
     <div class="topnav"> 
         <a href="/index.html">Home</a>
         <a href="/wwwroot/alien-abductors-page.html">Hold the Line</a>
@@ -16,8 +17,14 @@
     <main>
         <article id="mirror-mirror-on-the-board-title">
             <a href="https://thijmen-waitz.itch.io/mirror-mirror-on-the-board">
-                <img src="/assets/images/MMotBmainscreen.png" alt="Mirror Mirror on the Board screenshot" class="mirror-mirror-on-the-board-image">
+                <img src="/assets/images/MMotBmainscreen.png" alt="Mirror Mirror on the Board screenshot" id="0" class="main-image">
             </a>
+            <div class="side-image-container">
+                <img onclick="switchImage(1)" src="/assets/images/MMotBgame.png" alt="Mirror Mirror on the Board screenshot" id="1" class="side-image">
+                <img onclick="switchImage(2)" src="/assets/images/MMotBgameprogressed.png" alt="Mirror Mirror on the Board screenshot" id="2" class="side-image">
+                <img onclick="switchImage(3)" src="/assets/images/MMotBgamewithlotsofprogress.png" alt="Mirror Mirror on the Board screenshot" id="3" class="side-image">
+                <img onclick="switchImage(4)" src="/assets/images/MMotBgamewithtsplitsandprisms.png" alt="Mirror Mirror on the Board screenshot" id="4" class="side-image">
+            </div>
             <a class="itch-button" href="https://thijmen-waitz.itch.io/mirror-mirror-on-the-board">Go to the itch page</a>
             <h2 class="mirror-mirror-on-the-board-title">Mirror Mirror on the Board</h2>
             <p class="mirror-mirror-on-the-board-description">

@@ -108,7 +108,7 @@ article {
     }
     
     
-    img {
+    .main-image {
         width: 80%;
         height: 800px;
         margin: 0 10% .5%;
@@ -116,6 +116,16 @@ article {
         
         border: #000000 5px solid;
         border-radius: 10px;
+    }
+
+    .side-image-container {
+        border: #000000 5px solid;
+        margin: 0 0 1% 0;
+        padding: 0;
+    }
+
+    .side-image {
+        width: 20%;
     }
 
     .itch-button {
