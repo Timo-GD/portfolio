@@ -1,10 +1,13 @@
 function switchImage(n) {
-    let mainImage = document.getElementsByClassName("main-image")
-    mainImage.className = "side-image"
+    let mainImage = 0
     switch (n)
     {
         case 1:
-            document.getElementById("1").className = "main-image"
+            document.getElementById("0").style.display = "none";
+            document.getElementById("1").className = "main-image";
+            document.getElementById(mainImage).className = "side-image";
+            document.getElementById(mainImage).style.display = "block";
+            mainImage = 1;
         break;
         case 2:
             document.getElementById("2").className = "main-image"
