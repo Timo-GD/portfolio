@@ -17,6 +17,10 @@ body {
     background-image: url("/assets/images/MMotBbackground.png");
 }
 
+.body-block {
+    background-image: url("/bodyblock/dist/assets/images/background.png");
+}
+
 h1 {
    text-align: center;
    text: #000000;
@@ -155,10 +159,10 @@ article {
     iframe {
         border: #000000 5px solid;
         border-radius: 10px;
+        overflow: hidden;
 
         width: 80%;
-        height: 800px;
-        overflow: hidden;
+        height: 850px;
     }
 
     .itch-button {
