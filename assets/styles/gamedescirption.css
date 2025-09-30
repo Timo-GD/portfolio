@@ -70,6 +70,59 @@ h1 {
     color: #ffffff;
 }
 
+.slideshow-container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    width: 80%;
+    height: auto;
+    margin: 0 10% .5%;
+
+    
+    border: #000000 5px solid;
+    border-radius: 10px;
+}
+
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: #00000028;
+    width: auto;
+    padding: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 60ms ease;
+    user-select: none;
+}
+
+.previous {
+    right: 88%;
+    border-radius: 10px 0 0 10px;
+}
+
+.next {
+    right: 8%;
+    border-radius: 0 10px 10px 0;
+}
+
+.previous:hover, .next:hover {
+    background-color: #00000081;
+}
+
+.bottom-container {
+    border: #000000 2px solid;
+}
+
+.bottom-selector {
+    width: 20%;
+}
+
 article {
     width: 75%;
     height: auto;
@@ -105,27 +158,6 @@ article {
         width: 80%;
         height: 800px;
         overflow: hidden;
-    }
-    
-    
-    .main-image {
-        width: 80%;
-        height: 800px;
-        margin: 0 10% .5%;
-
-        
-        border: #000000 5px solid;
-        border-radius: 10px;
-    }
-
-    .side-image-container {
-        border: #000000 5px solid;
-        margin: 0 0 1% 0;
-        padding: 0;
-    }
-
-    .side-image {
-        width: 20%;
     }
 
     .itch-button {
