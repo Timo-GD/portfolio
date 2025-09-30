@@ -78,7 +78,7 @@ main {
 }
 
 article {
-    width: 48%;
+    width: 47%;
     height: auto;
     margin: 10px;
 
@@ -111,7 +111,7 @@ article {
 
 article:hover {
     box-shadow: 20px 20px 20px #000000;
-    width: 49%;
+    width: 48%;
     height: auto;
 }
 
