@@ -10,19 +10,19 @@ body {
 }
 
 .hold-the-line {
-    background-image: url("/assets/images/holdthelinebackground.jpg")
+    background-image: url("assets/images/holdthelinebackground.jpg")
 }
 
 .mirror-mirror-on-the-board {
-    background-image: url("/assets/images/MMotBbackground.png");
+    background-image: url("assets/images/MMotBbackground.png");
 }
 
 .body-block {
-    background-image: url("/bodyblock/dist/assets/images/background.png");
+    background-image: url("bodyblock/dist/assets/images/background.png");
 }
 
 .flappy-birb {
-    background-image: url("/assets/images/FlappyBirbBackground.png");
+    background-image: url("assets/images/FlappyBirbBackground.png");
 }
 
 h1 {
