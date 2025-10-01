@@ -21,6 +21,10 @@ body {
     background-image: url("/bodyblock/dist/assets/images/background.png");
 }
 
+.flappy-birb {
+    background-image: url("/assets/images/FlappyBirbBackground.png");
+}
+
 h1 {
    text-align: center;
    text: #000000;
