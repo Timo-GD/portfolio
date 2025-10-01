@@ -145,12 +145,36 @@ article:hover {
     }
 }
 
-#about-me {
-    /* display: block; */
+#about-me-article {
     display: grid;
     width: 97.5%;
     padding: 20%;
+    text-align: left;
+
+    p {
+        font-size: 24px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h3 {
+        border: none;
+        border-radius: 0;
+        width: 25%;
+        margin: 0 0 .5% 0;
+    }
 }
+
+.contact-image {
+    width: 5%;
+    margin: 0 .5% 0 0;
+    height: auto;
+    border: none;
+
+}
+
 
 #tools-and-languages {
     display: grid;
