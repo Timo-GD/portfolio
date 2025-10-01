@@ -122,9 +122,21 @@ article:hover {
     }
 }
 
+#game-2 {
+    img:hover {
+        content: url(../images/BodyBlockGameplay.gif);
+    }
+}
+
 #game-3 {
     img:hover {
         content: url(../images/MMotBgameplay.gif);
+    }
+}
+
+#game-4 {
+    img:hover {
+        content: url(../images/FlappyBirbGameplay.gif);
     }
 }
 
