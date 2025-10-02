@@ -40,21 +40,22 @@
             <div class="game-description">
                 <h2 class="mirror-mirror-on-the-board-title">Mirror Mirror on the Board</h2>
                 <p class="mirror-mirror-on-the-board-description">
-                    Hold the Line was my first game made for the Amsterdam University of Applied Sciences.
+                    Mirror Mirror on the board is a multiplayer board game made using the mongame framework. It was made together with Thijmen Waitz, Tim Houtzager and Kendahl Turk.
                     <br>
-                    It is made using the p5.js framework, which mostly uses javascript.
-                    <br>
-                    Hold the Line is a space invaders clone in which you have to make sure the alien tanks do not cross the walls. The game was solely made by me in 46 days.
-                    <br>
-                    In this project we were introduced to programming in javascript, Object Oriented Programming and scrum.
+                    Mirror Mirror on the board is a game in which you have to use mirrors, t-splits and prisms to redirect the laser to hit the other player whilst also making sure the other player doesn’t hit you.
                     <br>
                     <br>
+                    It was the second project that I worked on that used the monogame framework. It also was the first project that I worked on that used multiplayer.
                     <br>
-                    This project was my first exposure to game development, and for that reason it is still quite rough around the edges when it comes to code structure, readability and code conventions.
-                    <br> 
-                    However even this early project I am quite proud of because how the game plays, feels and looks still came out great.
+                    Incorporating multiplayer was a difficult task. But we eventually used a client server model. Using datapackets that we send to the server which then sends the correct response to both users.
+                    Sadly due to the game running on the servers of the University the game is no longer playable.
                     <br>
-                    And most important of all I learned a lot during its development which increased my skills which I could put to good use in the later projects.
+                    <br>
+                    The other difficult part of making the game was the grid system and making all the objects you could place here respond correctly to the inputs. We worked on this problem using a tile and grid system.
+                    <br>
+                    The grid system checks the position of the tile you want to place, and whether it is possible. And then the tile which has a specific tag based on which tile it is will do the logic of how it has to interact with the surroundings.
+                    <br>
+                    In this system the player, the laser and the obstacles are all tiles but with different tags.
                 </p>
             </div>
         </article>
