@@ -138,12 +138,17 @@ h3 {
 }
 
 .game-description {
+    text-align: justify;
     border: #000000 solid;
     border-radius: 10px;
     background-color: #ffffff;
     width: 80%;
     padding-bottom: .5%;
     margin: .5% 10% 0;
+}
+
+.game-description h2 {
+    text-align: center;
 }
 
 .the-code {
