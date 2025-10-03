@@ -12,17 +12,19 @@ body {
 }
 
 .topnav {
+    display: flex;
     background-color: #ffffff;
     overflow: hidden;
     margin: 0 0 .5% 0;
     border: #000000  2px solid;
+    justify-content: space-around;
 }
 
 .topnav a {
     border: #ffffff solid;
     padding: .5% 1%;
     border-radius: 10px;
-    margin: 0 6%;
+    /* margin: 0 6%; */
     
     background-color: #ffffff;
     
@@ -209,6 +211,7 @@ article:hover {
     height: auto;
     max-width: 3164px;
     max-height: 4432px;
+    object-fit: cover;
 }
 
 .contact-image {

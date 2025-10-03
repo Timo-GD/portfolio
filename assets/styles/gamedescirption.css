@@ -47,11 +47,12 @@ h3 {
 }
 
 .topnav {
+    display: flex;
     background-color: #ffffff;
     overflow: hidden;
     margin: 0 0 .5% 0;
     border: #000000  2px solid;
-
+    justify-content: space-around;
     
 }
 
@@ -59,7 +60,7 @@ h3 {
     border: #ffffff solid;
     padding: .5% 1%;
     border-radius: 10px;
-    margin: 0 6%;
+    /* margin: 0 6%; */
     
     background-color: #ffffff;
     
