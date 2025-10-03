@@ -156,8 +156,8 @@ h3 {
     border: #000000 solid;
     border-radius: 10px;
     background-color: #ffffff;
-    width: 80%;
-    margin: 2% 10%;
+    width: 40%;
+    margin: 2% 30%;
     padding: 1% 0;
 }
 
@@ -217,7 +217,7 @@ article {
     .code-button {
         border-radius: 10px;
         padding: 0.25% .5%;
-        width: 15%;
+        width: 40%;
         font-size: 24px;
         text-decoration: none;
         font-weight: bold;
